@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Distortion
-  m_Shader: {fileID: -6465566751694194690, guid: 97f24fb5716013f4895fb3de3177800f,
+  m_Shader: {fileID: -6465566751694194690, guid: 653c6610682d1484a9c929fa215a98cd,
     type: 3}
   m_ValidKeywords:
   - _SURFACE_TYPE_TRANSPARENT
@@ -29,7 +29,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses:
@@ -38,6 +38,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _AlphaMap:
+        m_Texture: {fileID: 2800000, guid: b4e9d1c77a079bc489be6662ae70f56e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -102,6 +106,7 @@ Material:
     m_Floats:
     - _Alpha: 1
     - _AlphaClip: 0
+    - _Alpha_Inten: -0.35
     - _Blend: 0
     - _BumpScale: 1
     - _CastShadows: 0
@@ -117,8 +122,8 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
-    - _NoiseScale: 14.2
-    - _NosieInten: 0.139
+    - _NoiseScale: 40
+    - _NosieInten: 0.172
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
