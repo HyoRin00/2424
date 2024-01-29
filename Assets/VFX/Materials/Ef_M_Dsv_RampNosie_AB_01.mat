@@ -182,10 +182,10 @@ Material:
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
     - _RampColor_01: {r: 0, g: 0.08867947, b: 0.603851, a: 1}
-    - _RampColor_02: {r: 1, g: 0.06132078, b: 0.06132078, a: 0.43137255}
+    - _RampColor_02: {r: 0.754717, g: 0, b: 0.49287185, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
-    - _SubTiling: {r: 0.35, g: 1, b: 0, a: 0}
+    - _SubTiling: {r: 0.2, g: 1, b: 0, a: 0}
     - _TIling: {r: 1, g: 1, b: 0, a: 0}
     - _Tiling: {r: 0.5, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

@@ -144,7 +144,7 @@ Material:
     - _SrcBlend: 5
     - _Surface: 1
     - _WorkflowMode: 1
-    - _ZTest: 4
+    - _ZTest: 8
     - _ZWrite: 0
     - _ZWriteControl: 0
     - _dsv: 0
@@ -156,7 +156,7 @@ Material:
     - _Distortion_Tling: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _MainTiling: {r: 12, g: 0.1, b: 0, a: 0}
+    - _MainTiling: {r: 15, g: 0.1, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
     - _RampColor_01: {r: 0, g: 0, b: 0, a: 0}
