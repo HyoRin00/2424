@@ -48,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _COLORGRADIENT:
-        m_Texture: {fileID: 2800000, guid: 9a7d78ee6f8f4da429197bc92ad681b8, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Color_Gradient_Map:
@@ -92,7 +92,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Ember_Texture:
-        m_Texture: {fileID: 2800000, guid: 6dc701d37c92eea458bde4ecaa51d50b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7194d5cf8e4640c48b6992f4385211b2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -162,7 +162,7 @@ Material:
     - _DIST_SWITCH: 1
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _Distortion_Inten: 2.2
+    - _Distortion_Inten: 2.09
     - _DstBlend: 10
     - _EnvironmentReflections: 1
     - _Float: -0.091
@@ -212,8 +212,8 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Main_Tiling: {r: 1.2, g: 1.2, b: 0, a: 0}
-    - _Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _Offset_1: {r: 0, g: -1, b: 0, a: 0}
+    - _Offset: {r: 0, g: 1, b: 0, a: 0}
+    - _Offset_1: {r: 0, g: 0, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
     - _RampColor_01: {r: 1, g: 0.7377613, b: 0.5990566, a: 0}
     - _RampColor_02: {r: 0.042452812, g: 1, b: 0.23434538, a: 0}
