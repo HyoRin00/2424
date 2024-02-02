@@ -24,6 +24,7 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 4ac67d282a5d85640a34e4c08d01c7e1,
     type: 3}
   m_ValidKeywords:
+  - _ENUM_VERTEX_COLOR
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -131,6 +132,9 @@ Material:
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
+    - _ENUM: 0
+    - _Edge_Smoothness: 0
+    - _Edge_Thickness: 0.1
     - _EnvironmentReflections: 1
     - _Float: 0
     - _Float_1: 0
@@ -152,6 +156,7 @@ Material:
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
+    - _Smoothstep: 0.1
     - _SpecularHighlights: 1
     - _SrcBlend: 5
     - _Surface: 1
@@ -159,6 +164,7 @@ Material:
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
+    - _dsv: 0
     - _power: 0.36
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
@@ -167,6 +173,7 @@ Material:
     - _Color_2: {r: 0, g: 0, b: 0, a: 0}
     - _Distortion_Panner: {r: 0, g: 0, b: 0, a: 0}
     - _Distortion_Tling: {r: 1, g: 1, b: 0, a: 0}
+    - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
