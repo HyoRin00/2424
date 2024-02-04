@@ -24,9 +24,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 4ac67d282a5d85640a34e4c08d01c7e1,
     type: 3}
   m_ValidKeywords:
-  - _ENUM_VERTEX_COLOR
+  - _COLORED_TYPE_VERTEX_COLOR
   - _SURFACE_TYPE_TRANSPARENT
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _ENUM_VERTEX_COLOR
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -124,6 +125,7 @@ Material:
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
+    - _COLORED_TYPE: 0
     - _CastShadows: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -158,6 +160,7 @@ Material:
     - _Smoothstep: 0.1
     - _SpecularHighlights: 1
     - _SrcBlend: 5
+    - _SubTexture_Index: 0
     - _Surface: 1
     - _WorkflowMode: 1
     - _ZTest: 8
