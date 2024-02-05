@@ -145,7 +145,7 @@ Material:
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
-    - _Smoothstep: 0.1
+    - _Smoothstep: 0.27
     - _SpecularHighlights: 1
     - _SrcBlend: 5
     - _SubTexture_Index: 0
@@ -159,19 +159,19 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Distortion_Panner: {r: 0, g: 0.35, b: 0, a: 0}
+    - _Distortion_Panner: {r: 0, g: -0.2, b: 0, a: 0}
     - _Distortion_Tling: {r: 0.8, g: 1, b: 0, a: 0}
     - _Edge_Color: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainTiling: {r: 1, g: 1, b: 0, a: 0}
-    - _Offset: {r: 0, g: 0.2, b: 0, a: 0}
+    - _Offset: {r: 0, g: 0.1, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
-    - _RampColor_01: {r: 2.7675965, g: 0.48251817, b: 0.3622509, a: 0}
-    - _RampColor_02: {r: 1.737065, g: 0.3081423, b: 0.24034843, a: 0}
+    - _RampColor_01: {r: 1.712, g: 0.17291202, b: 0.17291202, a: 0}
+    - _RampColor_02: {r: 0.9339623, g: 0.48877314, b: 0.32306862, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
     - _SubTiling: {r: 0.8, g: 0.8, b: 0, a: 0}
-    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Tiling: {r: 0.5, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &8405114531256579486
 MonoBehaviour:
