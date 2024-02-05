@@ -138,6 +138,7 @@ Material:
     - _OcclusionStrength: 1
     - _PANNER_SWITCH: 0
     - _PANNER_SWITHCH: 0
+    - _POLAR_COORDINATE: 0
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -160,7 +161,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Distortion_Panner: {r: 0, g: 0.35, b: 0, a: 0}
     - _Distortion_Tling: {r: 0.8, g: 1, b: 0, a: 0}
-    - _Edge_Color: {r: 0.990566, g: 0.990566, b: 0.990566, a: 0}
+    - _Edge_Color: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Offset: {r: 0, g: 0.2, b: 0, a: 0}
