@@ -83,7 +83,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: 94da4ba2f60aae04aa4e0fb7d3438750, type: 3}
+        m_Texture: {fileID: 2800000, guid: ef2139c19ed162842bb4114e598b6f92, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -107,6 +107,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SubTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -156,6 +160,7 @@ Material:
     - _PANNER_SWITHCH: 0
     - _POLAR_COORDINATE: 0
     - _Parallax: 0.005
+    - _Power: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
@@ -180,13 +185,15 @@ Material:
     - _Distortion_Tling: {r: 1, g: 1, b: 0, a: 0}
     - _Edge_Color: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainTiling: {r: 4, g: 1, b: 0, a: 0}
+    - _MainTiling: {r: 10, g: 2, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Offset_1: {r: 0, g: 0, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
     - _RampColor_01: {r: 0.9967341, g: 1, b: 0.6179246, a: 0}
     - _RampColor_02: {r: 1, g: 0.6367924, b: 0.6367924, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
     - _SubTiling: {r: 1, g: 1, b: 0, a: 0}
-    - _Tiling: {r: 5, g: 1, b: 0, a: 0}
+    - _Tiling: {r: 10, g: 1, b: 0, a: 0}
+    - _Tiling_1: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
