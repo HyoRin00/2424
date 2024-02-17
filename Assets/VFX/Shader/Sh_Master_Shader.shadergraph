@@ -1831,20 +1831,6 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "7e0a20a466324c9abcf1a4e39f4c9b72"
-                },
-                "m_SlotId": 1
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "401897dd2bbf452598ce50694707a314"
-                },
-                "m_SlotId": 1
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
                     "m_Id": "804be12733a24432816baf0c544f8b2f"
                 },
                 "m_SlotId": 2
@@ -7892,8 +7878,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 628.0,
-            "y": 553.9999389648438,
+            "x": 739.0,
+            "y": 741.0,
             "width": 108.0,
             "height": 34.0
         }
@@ -8220,7 +8206,7 @@
     "m_ShaderOutputName": "B",
     "m_StageCapability": 3,
     "m_Value": {
-        "e00": 2.0,
+        "e00": 1.0,
         "e01": 2.0,
         "e02": 2.0,
         "e03": 2.0,
@@ -10417,10 +10403,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 762.9999389648438,
-            "y": 513.9999389648438,
-            "width": 197.00006103515626,
-            "height": 95.00006103515625
+            "x": 874.0,
+            "y": 701.0,
+            "width": 197.0,
+            "height": 95.0
         }
     },
     "m_Slots": [
@@ -11367,8 +11353,8 @@
     "m_ObjectId": "7d8607f01cf7439e9377769e6a3cb7b5",
     "m_Title": "Soft Particle",
     "m_Position": {
-        "x": 603.0001220703125,
-        "y": 455.00006103515627
+        "x": 714.0,
+        "y": 642.0
     }
 }
 
@@ -11384,9 +11370,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 1035.0001220703125,
-            "y": 558.0,
-            "width": 55.9998779296875,
+            "x": 1087.0,
+            "y": 495.0,
+            "width": 56.0,
             "height": 24.0
         }
     },
@@ -16905,7 +16891,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 1.0,
+    "m_Value": 0.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,

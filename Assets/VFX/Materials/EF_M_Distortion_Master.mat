@@ -139,8 +139,8 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
-    - _NoiseScale: 3.84
-    - _NosieInten: 0.1
+    - _NoiseScale: 5.46
+    - _NosieInten: -2.91
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
@@ -162,5 +162,5 @@ Material:
     - _NosieTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Tilng: {r: 1, g: 0.8, b: 0, a: 0}
+    - _Tilng: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

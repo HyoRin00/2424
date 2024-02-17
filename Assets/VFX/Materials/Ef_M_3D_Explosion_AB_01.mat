@@ -36,6 +36,7 @@ Material:
     RenderType: Transparent
   disabledShaderPasses:
   - SHADOWCASTER
+  - DepthOnly
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -117,12 +118,12 @@ Material:
     - _CastShadows: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Cull: 0
+    - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
-    - _Dsv_Smoothness: 0.09
+    - _Dsv_Smoothness: 0.25
     - _Edge_Smoothness: 0.56
     - _EnvironmentReflections: 1
     - _Float: -0.022
@@ -137,7 +138,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.25
+    - _Smoothness: 0.04
     - _SmoothnessTextureChannel: 0
     - _Soft_Particles: 1.61
     - _SpecularHighlights: 1
@@ -146,14 +147,14 @@ Material:
     - _Vertex_Offset_Density: 5.28
     - _WorkflowMode: 1
     - _ZTest: 4
-    - _ZWrite: 1
-    - _ZWriteControl: 1
+    - _ZWrite: 0
+    - _ZWriteControl: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 0.6087693, b: 0.4575472, a: 1}
     - _Color_01: {r: 0.38679248, g: 0.3454373, b: 0.3454373, a: 1}
     - _Color_02: {r: 2.5723412, g: 1.2855927, b: 0.45299068, a: 0}
-    - _Color_03: {r: 3.3962264, g: 0.30096132, b: 0.21359877, a: 0}
+    - _Color_03: {r: 4.4934206, g: 0.09436169, b: 0.09436169, a: 0}
     - _Color_1: {r: 0.7924528, g: 0.28426072, b: 0, a: 0}
     - _Color_2: {r: 1, g: 0.5953063, b: 0.38039213, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
