@@ -134,6 +134,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Add_Index: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
@@ -157,10 +158,10 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Gradient_Index: 2.63
+    - _Gradient_Index: 2
     - _Gradient_Inten: 1
     - _Index: 0
-    - _Inten: 2.1
+    - _Inten: 1.65
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _PANNER_SWITCH: 0
@@ -174,7 +175,7 @@ Material:
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
-    - _Smoothstep: -0.27
+    - _Smoothstep: -0.41
     - _SpecularHighlights: 1
     - _SrcBlend: 5
     - _SrcBlendAlpha: 1
@@ -184,24 +185,24 @@ Material:
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
-    - _dsv: 0.23
+    - _dsv: 0.34
     - _power: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 4.7800217, g: 4.7800217, b: 4.7800217, a: 0}
-    - _Distortion_Panner: {r: 1, g: 0, b: 0, a: 0}
-    - _Distortion_Tling: {r: 1, g: 1, b: 0, a: 0}
+    - _Distortion_Panner: {r: -0.26, g: 0.1, b: 0, a: 0}
+    - _Distortion_Tling: {r: 0.4, g: 1, b: 0, a: 0}
     - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainTiling: {r: 1, g: 1, b: 0, a: 0}
-    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Offset: {r: 0.3, g: 0, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 0, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
-    - _RampColor_01: {r: 0, g: 1.0194601, b: 4.663947, a: 1}
-    - _RampColor_02: {r: 4.879339, g: 0, b: 0.5875653, a: 1}
+    - _RampColor_01: {r: 0, g: 0.7633032, b: 5.992157, a: 1}
+    - _RampColor_02: {r: 1.4980392, g: 0, b: 0.18823494, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
-    - _SubTiling: {r: 0.2, g: 1, b: 0, a: 0}
+    - _SubTiling: {r: 0.3, g: 2, b: 0, a: 0}
     - _TIling: {r: 1, g: 1, b: 0, a: 0}
     - _Tiling: {r: 0.5, g: 1, b: 0, a: 0}
     - _Tiling_1: {r: 1, g: 1, b: 0, a: 0}

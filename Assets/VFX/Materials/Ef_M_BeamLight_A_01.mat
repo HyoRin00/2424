@@ -25,7 +25,7 @@ Material:
   disabledShaderPasses:
   - SHADOWCASTER
   - DepthOnly
-  m_LockedProperties: 
+  m_LockedProperties: _Index
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
