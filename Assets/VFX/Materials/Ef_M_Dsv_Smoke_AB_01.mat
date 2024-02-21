@@ -21,22 +21,22 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Ef_M_Dsv_Smoke_AB_01
-  m_Shader: {fileID: -6465566751694194690, guid: 4ac67d282a5d85640a34e4c08d01c7e1,
+  m_Shader: {fileID: -6465566751694194690, guid: 48c513e754c37644caec75df6515404a,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _COLORED_TYPE_VERTEX_COLOR
+  - _COLORED_TYPE_RAMP_LERP
   - _SURFACE_TYPE_TRANSPARENT
-  m_InvalidKeywords:
-  - _ENUM_VERTEX_COLOR
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses:
+  - SHADOWCASTER
   - DepthOnly
   m_LockedProperties: 
   m_SavedProperties:
@@ -51,7 +51,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Color_Gradient_Map:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 8c5ab028bceeb504cae113e436bdf5a2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -133,8 +133,8 @@ Material:
     - _AlphaToMask: 0
     - _Blend: 0
     - _BumpScale: 1
-    - _COLORED_TYPE: 0
-    - _CastShadows: 1
+    - _COLORED_TYPE: 1
+    - _CastShadows: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
@@ -179,7 +179,7 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 0
     - _dsv: 0
-    - _power: 0
+    - _power: 0.11
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
@@ -193,8 +193,8 @@ Material:
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 0, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
-    - _RampColor_01: {r: 0, g: 0, b: 0, a: 0}
-    - _RampColor_02: {r: 0, g: 0, b: 0, a: 0}
+    - _RampColor_01: {r: 0.4528302, g: 0.23780704, b: 0.3147259, a: 0}
+    - _RampColor_02: {r: 0.31446534, g: 0.15129933, b: 0.18236367, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
     - _SubTiling: {r: 1, g: 1, b: 0, a: 0}
