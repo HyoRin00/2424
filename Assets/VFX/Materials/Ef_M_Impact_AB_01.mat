@@ -59,7 +59,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dsv_Gradient_Map:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 993fe810ac68855428e3ad97c42649d8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -95,6 +95,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SubTexture:
+        m_Texture: {fileID: 2800000, guid: 29227c9ed25a1cb40b416f14eb76c4f3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -112,6 +116,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Add_Index: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
@@ -143,6 +148,7 @@ Material:
     - _PANNER_SWITHCH: 0
     - _POLAR_COORDINATE: 0
     - _Parallax: 0.005
+    - _Power: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RAMP_SWITCH: 0
@@ -169,13 +175,15 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Offset_1: {r: 0, g: 0, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
     - _RampColor_01: {r: 0, g: 0, b: 0, a: 0}
     - _RampColor_02: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
-    - _SubTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _SubTiling: {r: 1.31, g: 4, b: 0, a: 0}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Tiling_1: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &2851092558344768726
 MonoBehaviour:
