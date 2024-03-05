@@ -142,7 +142,7 @@ Material:
     - _Gradient_Index: 2
     - _Gradient_Inten: 1
     - _Index: 0
-    - _Inten: 1.61
+    - _Inten: 0.87
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _PANNER_SWITCH: 0
@@ -170,11 +170,11 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Distortion_Panner: {r: 0.5, g: 0, b: 0, a: 0}
-    - _Distortion_Tling: {r: 1, g: 1, b: 0, a: 0}
+    - _Distortion_Panner: {r: -0.5, g: 0, b: 0, a: 0}
+    - _Distortion_Tling: {r: 0.89, g: 1, b: 0, a: 0}
     - _Edge_Color: {r: 0.31421667, g: 1.1755408, b: 1.1097908, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainTiling: {r: 0.59, g: 0.41, b: 0, a: 0}
+    - _MainTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Offset: {r: -0.1, g: 0, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 0, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}

@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4820513055992003908
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -20,13 +7,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ef_M_Slash_Hit
+  m_Name: Ef_M_Aurora
   m_Shader: {fileID: -6465566751694194690, guid: 4ac67d282a5d85640a34e4c08d01c7e1,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _COLORED_TYPE_VERTEX_COLOR
+  - _COLORED_TYPE_RAMP_LERP
+  - _DIST_SWITCH
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -67,11 +55,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Distortion:
-        m_Texture: {fileID: 2800000, guid: 040e79fac29d548439c2be82ddbfca46, type: 3}
+        m_Texture: {fileID: 2800000, guid: 01ed62f7213f21b4bbebd91373daffdf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dsv_Gradient_Map:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 993fe810ac68855428e3ad97c42649d8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -83,7 +71,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: 3cd84c9765d0a7d4cb05c7ade2f1230a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 31473f269c20c6942a69cf6639bf5d5d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -107,7 +95,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SubTexture:
-        m_Texture: {fileID: 2800000, guid: 702d00e76ec437a4a88b7e60f7b1f875, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D:
@@ -134,13 +122,13 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
-    - _COLORED_TYPE: 0
+    - _COLORED_TYPE: 1
     - _CastShadows: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Cull: 2
+    - _Cull: 0
     - _Cutoff: 0.5
-    - _DIST_SWITCH: 0
+    - _DIST_SWITCH: 1
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
@@ -151,10 +139,10 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Gradient_Index: 0
+    - _Gradient_Index: 3
     - _Gradient_Inten: 1
-    - _Index: 0
-    - _Inten: 0
+    - _Index: 2
+    - _Inten: 2.81
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _PANNER_SWITCH: 0
@@ -167,7 +155,7 @@ Material:
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
-    - _Smoothstep: 0.1
+    - _Smoothstep: 0.68
     - _SpecularHighlights: 1
     - _SrcBlend: 5
     - _SrcBlendAlpha: 1
@@ -177,24 +165,37 @@ Material:
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
-    - _dsv: 0
+    - _dsv: 0.12
     - _power: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 2, g: 2, b: 2, a: 1}
-    - _Distortion_Panner: {r: 0, g: 0, b: 0, a: 0}
-    - _Distortion_Tling: {r: 1, g: 1, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Distortion_Panner: {r: 0, g: -0.2, b: 0, a: 0}
+    - _Distortion_Tling: {r: 0.34, g: 0.1, b: 0, a: 0}
     - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _MainTiling: {r: 4, g: 1, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 0, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
-    - _RampColor_01: {r: 0, g: 0, b: 0, a: 0}
-    - _RampColor_02: {r: 0, g: 0, b: 0, a: 0}
+    - _RampColor_01: {r: 0.41037738, g: 1, b: 0.68728524, a: 0}
+    - _RampColor_02: {r: 0, g: 0.38320976, b: 0.5660378, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
-    - _SubTiling: {r: 1, g: 1, b: 0, a: 0}
-    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _SubTiling: {r: 0, g: 0, b: 0, a: 0}
+    - _Tiling: {r: 4, g: 1, b: 0, a: 0}
     - _Tiling_1: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
+--- !u!114 &2904680948077207518
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
