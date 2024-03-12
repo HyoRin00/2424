@@ -27,6 +27,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _COLORED_TYPE_VERTEX_COLOR
+  - _PANNER_SWITHCH
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -83,7 +84,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: b041b72ac8151844e95b7e48dea3c272, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4ec85dde459da87418335dae02626cfd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -158,20 +159,21 @@ Material:
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _PANNER_SWITCH: 0
-    - _PANNER_SWITHCH: 0
+    - _PANNER_SWITHCH: 1
     - _POLAR_COORDINATE: 0
     - _Parallax: 0.005
     - _Power: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _Rotate: -11.72
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _Smoothstep: 0.1
     - _SpecularHighlights: 1
     - _SrcBlend: 5
     - _SrcBlendAlpha: 1
-    - _SubTexture_Index: 0
+    - _SubTexture_Index: 2
     - _Surface: 1
     - _WorkflowMode: 1
     - _ZTest: 4
@@ -186,10 +188,10 @@ Material:
     - _Distortion_Tling: {r: 1, g: 1, b: 0, a: 0}
     - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _MainTiling: {r: 2, g: 1, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 0, b: 0, a: 0}
-    - _Panner: {r: 0, g: 0, b: 0, a: 0}
+    - _Panner: {r: -2, g: 0, b: 0, a: 0}
     - _RampColor_01: {r: 0, g: 0, b: 0, a: 0}
     - _RampColor_02: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

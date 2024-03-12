@@ -25,7 +25,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -3775631042657332540}
-    m_Duration: 11.883333333333999
+    m_Duration: 9.283333333333333
     m_TimeScale: 1
     m_ParentTrack: {fileID: -8297077750658957099}
     m_EaseInDuration: 0
@@ -92,29 +92,6 @@ MonoBehaviour:
     m_DisplayName: RecorderClip
   m_Markers:
     m_Objects: []
---- !u!114 &-8001520092938126285
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48853ae485fa386428341ac1ea122570, type: 3}
-  m_Name: ControlPlayableAsset
-  m_EditorClassIdentifier: 
-  sourceGameObject:
-    exposedName: 366f6e39b51e7964180a6f1cfeb8ada3
-    defaultValue: {fileID: 0}
-  prefabGameObject: {fileID: 0}
-  updateParticle: 1
-  particleRandomSeed: 7097
-  updateDirector: 1
-  updateITimeControl: 1
-  searchHierarchy: 0
-  active: 1
-  postPlayback: 2
 --- !u!114 &-5290570158147927147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,7 +105,7 @@ MonoBehaviour:
   m_Name: RecorderClip
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 3
+  take: 5
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -295,8 +272,8 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: -8001520092938126285}
-    m_Duration: 11.883333333333999
+    m_Asset: {fileID: 5819190624010776163}
+    m_Duration: 9.250000000001
     m_TimeScale: 1
     m_ParentTrack: {fileID: -1554569472475285367}
     m_EaseInDuration: 0
@@ -385,3 +362,26 @@ MonoBehaviour:
     m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
+--- !u!114 &5819190624010776163
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48853ae485fa386428341ac1ea122570, type: 3}
+  m_Name: ControlPlayableAsset
+  m_EditorClassIdentifier: 
+  sourceGameObject:
+    exposedName: 585ab4d9a6792e84481f98ace53e8bbb
+    defaultValue: {fileID: 0}
+  prefabGameObject: {fileID: 0}
+  updateParticle: 1
+  particleRandomSeed: 2364
+  updateDirector: 1
+  updateITimeControl: 1
+  searchHierarchy: 0
+  active: 1
+  postPlayback: 2

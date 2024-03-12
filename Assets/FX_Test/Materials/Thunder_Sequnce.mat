@@ -49,7 +49,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dsv_Map:
-        m_Texture: {fileID: 2800000, guid: 7abd3d792a6b2ed499b300cf502bbc28, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -69,7 +69,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Nosie_Texture:
-        m_Texture: {fileID: 2800000, guid: 9d0da9ec7896d2a478255c20e91230f4, type: 3}
+        m_Texture: {fileID: 2800000, guid: 38eb9b250c5297443875fffa37e76375, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
