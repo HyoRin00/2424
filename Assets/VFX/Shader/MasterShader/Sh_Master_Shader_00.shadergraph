@@ -5787,10 +5787,10 @@
         "m_Expanded": false,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1373.0001220703125,
-            "y": 660.0,
+            "x": -1387.0001220703125,
+            "y": 707.0000610351563,
             "width": 126.0,
-            "height": 94.00006103515625
+            "height": 93.99993896484375
         }
     },
     "m_Slots": [
@@ -8388,7 +8388,7 @@
         "m_Guid": ""
     },
     "isMainTexture": false,
-    "useTilingAndOffset": false,
+    "useTilingAndOffset": true,
     "m_Modifiable": true,
     "m_DefaultType": 0
 }
@@ -12333,10 +12333,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1537.0,
-            "y": 700.0,
-            "width": 153.9998779296875,
-            "height": 34.00006103515625
+            "x": -1551.0001220703125,
+            "y": 747.0,
+            "width": 154.0,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -15562,8 +15562,8 @@
     "m_ObjectId": "abf4ad066d214c8eb619e967540137ba",
     "m_Title": "Dsv_Gradient",
     "m_Position": {
-        "x": -1641.0001220703125,
-        "y": 335.9999694824219
+        "x": -1679.0,
+        "y": 333.0
     }
 }
 
