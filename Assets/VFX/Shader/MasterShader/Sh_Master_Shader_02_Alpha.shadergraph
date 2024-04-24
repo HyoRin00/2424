@@ -667,7 +667,11 @@
             "m_Id": "87867302e43c420f801145bd93398662"
         }
     ],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "d7412b0439a64e9b9930bc76e33379b8"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -9156,7 +9160,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "59f6df9c974342b6b20cf93c7c81fafe",
     "m_Id": 0,
-    "m_DisplayName": "Float",
+    "m_DisplayName": "Rotate",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -17942,6 +17946,26 @@
         "e31": 0.0,
         "e32": 0.0,
         "e33": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "d7412b0439a64e9b9930bc76e33379b8",
+    "m_Title": "alpha",
+    "m_Content": "TGA 텍스쳐 : 알파채널 사용 ",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -992.0411987304688,
+        "y": -1973.5286865234375,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 
