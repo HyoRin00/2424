@@ -111,6 +111,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -125,6 +129,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Add_Index: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 2
@@ -156,10 +161,12 @@ Material:
     - _PANNER_SWITHCH: 0
     - _POLAR_COORDINATE: 0
     - _Parallax: 0.005
+    - _Power: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RAMP_SWITCH: 0
     - _ReceiveShadows: 1
+    - _Rotate: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _Smoothstep: 0.1
@@ -182,6 +189,7 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Offset_1: {r: 0, g: 0, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
     - _RampColor_01: {r: 0, g: 0, b: 0, a: 0}
     - _RampColor_02: {r: 0, g: 0, b: 0, a: 0}
@@ -189,4 +197,5 @@ Material:
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
     - _SubTiling: {r: 0, g: 0, b: 0, a: 0}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Tiling_1: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
