@@ -658,7 +658,11 @@
             "m_Id": "87867302e43c420f801145bd93398662"
         }
     ],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "149b1926be764ea6ba0a7c1f41d2514b"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -4227,6 +4231,26 @@
     ],
     "m_Value": 0,
     "m_IsEditable": true
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "149b1926be764ea6ba0a7c1f41d2514b",
+    "m_Title": "SP",
+    "m_Content": "SOFT PARTICLES",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1115.0,
+        "y": -1618.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
