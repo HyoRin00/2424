@@ -51,7 +51,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Color_Gradient_Map:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: b5eb3d35fedd76b43b2e9498921b684b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -99,7 +99,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: b5eb3d35fedd76b43b2e9498921b684b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -138,7 +138,7 @@ Material:
     - _CastShadows: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Cull: 2
+    - _Cull: 0
     - _Cutoff: 0.5
     - _DIST_SWITCH: 0
     - _DetailAlbedoMapScale: 1
@@ -146,7 +146,7 @@ Material:
     - _DstBlend: 10
     - _DstBlendAlpha: 0
     - _Edge_Smoothness: 0
-    - _Edge_Thickness: 0.1
+    - _Edge_Thickness: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
@@ -168,7 +168,7 @@ Material:
     - _Rotate: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
-    - _Smoothstep: 0.54
+    - _Smoothstep: 0.14
     - _SpecularHighlights: 1
     - _SrcBlend: 5
     - _SrcBlendAlpha: 1
@@ -178,7 +178,7 @@ Material:
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
-    - _dsv: 0
+    - _dsv: 0.66
     - _power: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
@@ -187,15 +187,15 @@ Material:
     - _Distortion_Tling: {r: 1, g: 1, b: 0, a: 0}
     - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _MainTiling: {r: 4, g: 1, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 0, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
-    - _RampColor_01: {r: 0.0025007725, g: 1, b: 0, a: 0}
-    - _RampColor_02: {r: 1, g: 0.23113209, b: 0.6939006, a: 0}
+    - _RampColor_01: {r: 1, g: 0.3068182, b: 0, a: 0}
+    - _RampColor_02: {r: 0, g: 1, b: 0.19953465, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
     - _SubTiling: {r: 1, g: 1, b: 0, a: 0}
-    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Tiling: {r: 4, g: 1, b: 0, a: 0}
     - _Tiling_1: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
