@@ -170,7 +170,7 @@ Material:
     - _power: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1.4980394, g: 1.4980394, b: 1.4980394, a: 1}
+    - _Color: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 1}
     - _Distortion_Panner: {r: 0, g: 0, b: 0, a: 0}
     - _Distortion_Tling: {r: 1, g: 0.2, b: 0, a: 0}
     - _Edge_Color: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 1}
