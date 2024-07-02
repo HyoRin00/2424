@@ -161,14 +161,15 @@ Material:
     - _PANNER_SWITHCH: 0
     - _POLAR_COORDINATE: 0
     - _Parallax: 0.005
-    - _Power: 1
+    - _Power: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RAMP_SWITCH: 0
     - _ReceiveShadows: 1
+    - _Rotate: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
-    - _Smoothstep: 0.1
+    - _Smoothstep: 100
     - _SpecularHighlights: 1
     - _SrcBlend: 5
     - _SubTexture_Index: 0
@@ -181,7 +182,7 @@ Material:
     - _power: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 2, g: 2, b: 2, a: 1}
+    - _Color: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
     - _Distortion_Panner: {r: 0, g: 0, b: 0, a: 0}
     - _Distortion_Tling: {r: 1, g: 1, b: 0, a: 0}
     - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
@@ -195,6 +196,6 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
     - _SubTiling: {r: 1, g: 1, b: 0, a: 0}
-    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Tiling: {r: 0, g: 10, b: 0, a: 0}
     - _Tiling_1: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
