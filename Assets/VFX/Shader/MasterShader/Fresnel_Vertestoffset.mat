@@ -91,13 +91,13 @@ Material:
     - _DstBlend: 10
     - _Edge_Smoothness: 0
     - _Edge_Thickness: 0.1
-    - _Float: 0.05
-    - _FresnelPower: 1.18
+    - _Float: 0.02
+    - _FresnelPower: 2.47
     - _Gradient_Index: 0
     - _Gradient_Inten: 1
     - _Index: 0
     - _Inten: 0
-    - _Nosie_Scale: 5
+    - _Nosie_Scale: 6.45
     - _PANNER_SWITCH: 0
     - _PANNER_SWITHCH: 0
     - _POLAR_COORDINATE: 0
@@ -119,7 +119,7 @@ Material:
     - _Distortion_Panner: {r: 0, g: 0, b: 0, a: 0}
     - _Distortion_Tling: {r: 1, g: 1, b: 0, a: 0}
     - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
-    - _FresnelColor: {r: 0.27063036, g: 0.53978103, b: 3.3749194, a: 0}
+    - _FresnelColor: {r: 0, g: 0.49800637, b: 2.1747944, a: 0}
     - _MainTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Offset: {r: 0, g: 1, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 0, b: 0, a: 0}
@@ -130,6 +130,6 @@ Material:
     - _SubTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Tiling: {r: 2, g: 1, b: 0, a: 0}
     - _Tiling_1: {r: 1, g: 1, b: 0, a: 0}
-    - _VertexOffset: {r: 0, g: 0.5, b: 0, a: 0}
+    - _VertexOffset: {r: 0, g: -0.5, b: 0, a: 0}
     - _VertexOffsetTiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

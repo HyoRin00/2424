@@ -95,7 +95,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SubTexture:
-        m_Texture: {fileID: 2800000, guid: 29227c9ed25a1cb40b416f14eb76c4f3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6834e822680d7444d9c68d1a3418d6a9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D:
@@ -142,7 +142,7 @@ Material:
     - _Gradient_Index: 3
     - _Gradient_Inten: 1
     - _Index: 0
-    - _Inten: 2.74
+    - _Inten: 1.81
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _PANNER_SWITCH: 0
@@ -156,7 +156,7 @@ Material:
     - _Rotate: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
-    - _Smoothstep: 0.43
+    - _Smoothstep: -1.04
     - _SpecularHighlights: 1
     - _SrcBlend: 5
     - _SrcBlendAlpha: 1
@@ -166,24 +166,24 @@ Material:
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
-    - _dsv: 0.44
+    - _dsv: 0.42
     - _power: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Distortion_Panner: {r: 0.2, g: 0, b: 0, a: 0}
+    - _Distortion_Panner: {r: 0.5, g: 0, b: 0, a: 0}
     - _Distortion_Tling: {r: 1, g: 1, b: 0, a: 0}
-    - _Edge_Color: {r: 2.2715487, g: 2.2715487, b: 2.2715487, a: 0}
+    - _Edge_Color: {r: 0.13895063, g: 0.41801566, b: 1.3389802, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 1, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
-    - _RampColor_01: {r: 0.7963763, g: 1.9467396, b: 2.3127642, a: 0}
-    - _RampColor_02: {r: 0, g: 0.1379717, b: 0.24528301, a: 0}
+    - _RampColor_01: {r: 0, g: 0.110374354, b: 0.2578616, a: 0}
+    - _RampColor_02: {r: 0, g: 1, b: 0.9130435, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
-    - _SubTiling: {r: 2, g: 1, b: 0, a: 0}
+    - _SubTiling: {r: 0.53, g: 0.4, b: 0, a: 0}
     - _Tiling: {r: 2, g: 1, b: 0, a: 0}
     - _Tiling_1: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

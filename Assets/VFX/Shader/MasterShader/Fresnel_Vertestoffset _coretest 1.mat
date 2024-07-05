@@ -27,6 +27,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _COLORED_TYPE_VERTEX_COLOR
+  - _DIST_SWITCH
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -87,7 +88,7 @@ Material:
     - _COLORED_TYPE: 0
     - _CastShadows: 0
     - _Cull: 2
-    - _DIST_SWITCH: 0
+    - _DIST_SWITCH: 1
     - _DstBlend: 10
     - _Edge_Smoothness: 0
     - _Edge_Thickness: 0.1
@@ -104,7 +105,7 @@ Material:
     - _Power: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Rotate: 0
+    - _Rotate: -19.7
     - _Smoothstep: 0.48
     - _SrcBlend: 5
     - _SubTexture_Index: 0
@@ -115,17 +116,17 @@ Material:
     - _dsv: 0.26
     - _power: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 1.3041189, g: 1.3041189, b: 1.3041189, a: 0}
     - _Distortion_Panner: {r: 0.1, g: -0.5, b: 0, a: 0}
     - _Distortion_Tling: {r: 2, g: 1, b: 0, a: 0}
     - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
     - _FresnelColor: {r: 0.7490196, g: 0.7030892, b: 0.7030892, a: 0}
-    - _MainTiling: {r: 3, g: 3, b: 0, a: 0}
+    - _MainTiling: {r: 3, g: 2, b: 0, a: 0}
     - _Offset: {r: 1, g: 0.5, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 0, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
-    - _RampColor_01: {r: 0.05032932, g: 0.26087624, b: 0.8207547, a: 1}
-    - _RampColor_02: {r: 0.06132078, g: 0.51642275, b: 1, a: 1}
+    - _RampColor_01: {r: 1, g: 1, b: 1, a: 1}
+    - _RampColor_02: {r: 0.7490197, g: 0.7490197, b: 0.7490197, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
     - _SubTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Tiling: {r: 4, g: 2, b: 0, a: 0}

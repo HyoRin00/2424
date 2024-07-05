@@ -91,7 +91,7 @@ Material:
     - _Edge_Smoothness: 0
     - _Edge_Thickness: 0.1
     - _Float: 0.01
-    - _FresnelPower: 0.89
+    - _FresnelPower: 0.08
     - _Gradient_Index: 0
     - _Gradient_Inten: 1
     - _Index: 0
@@ -118,7 +118,7 @@ Material:
     - _Distortion_Panner: {r: 0.1, g: -0.5, b: 0, a: 0}
     - _Distortion_Tling: {r: 2, g: 1, b: 0, a: 0}
     - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
-    - _FresnelColor: {r: 0, g: 0.3090248, b: 1, a: 0}
+    - _FresnelColor: {r: 0.046398424, g: 0.19893955, b: 0.6415094, a: 0}
     - _MainTiling: {r: 3, g: 3, b: 0, a: 0}
     - _Offset: {r: 1, g: 0.5, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 0, b: 0, a: 0}
