@@ -156,7 +156,7 @@ Material:
     - _Rotate: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
-    - _Smoothstep: -1.04
+    - _Smoothstep: -0.76
     - _SpecularHighlights: 1
     - _SrcBlend: 5
     - _SrcBlendAlpha: 1
@@ -173,17 +173,17 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Distortion_Panner: {r: 0.5, g: 0, b: 0, a: 0}
     - _Distortion_Tling: {r: 1, g: 1, b: 0, a: 0}
-    - _Edge_Color: {r: 0.13895063, g: 0.41801566, b: 1.3389802, a: 0}
+    - _Edge_Color: {r: 0.042503275, g: 0.17284566, b: 0.42932585, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 1, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
-    - _RampColor_01: {r: 0, g: 0.110374354, b: 0.2578616, a: 0}
+    - _RampColor_01: {r: 0, g: 0.16545457, b: 0.39, a: 0}
     - _RampColor_02: {r: 0, g: 1, b: 0.9130435, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
-    - _SubTiling: {r: 0.53, g: 0.4, b: 0, a: 0}
+    - _SubTiling: {r: 1, g: 0.4, b: 0, a: 0}
     - _Tiling: {r: 2, g: 1, b: 0, a: 0}
     - _Tiling_1: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
