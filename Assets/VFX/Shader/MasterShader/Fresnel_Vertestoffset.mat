@@ -91,13 +91,13 @@ Material:
     - _DstBlend: 10
     - _Edge_Smoothness: 0
     - _Edge_Thickness: 0.1
-    - _Float: 0.02
+    - _Float: 0.01
     - _FresnelPower: 2.47
     - _Gradient_Index: 0
     - _Gradient_Inten: 1
     - _Index: 0
     - _Inten: 0
-    - _Nosie_Scale: 6.45
+    - _Nosie_Scale: 7.63
     - _PANNER_SWITCH: 0
     - _PANNER_SWITHCH: 0
     - _POLAR_COORDINATE: 0
@@ -131,5 +131,5 @@ Material:
     - _Tiling: {r: 2, g: 1, b: 0, a: 0}
     - _Tiling_1: {r: 1, g: 1, b: 0, a: 0}
     - _VertexOffset: {r: 0, g: -0.5, b: 0, a: 0}
-    - _VertexOffsetTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _VertexOffsetTiling: {r: 0.5, g: 0.4, b: 0, a: 0}
   m_BuildTextureStacks: []
