@@ -75,5 +75,5 @@ Material:
     - _ZWriteControl: 0
     m_Colors:
     - _Albedo: {r: 0.59119487, g: 0.59119487, b: 0.59119487, a: 0}
-    - _Color: {r: 0, g: 0.6056511, b: 0.9433962, a: 0}
+    - _Color: {r: 0, g: 0.46053517, b: 0.94509804, a: 0}
   m_BuildTextureStacks: []
