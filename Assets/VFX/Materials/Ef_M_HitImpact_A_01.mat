@@ -32,7 +32,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses:
@@ -83,7 +83,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: 627063393ceac6249ac76f3fbdb5d98d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0d38bf6e37f5829469c4a93830bc2b55, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -164,6 +164,7 @@ Material:
     - _Power: 0
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _RAMP_PANNER: 0
     - _ReceiveShadows: 1
     - _Rotate: 0
     - _Smoothness: 0.5
