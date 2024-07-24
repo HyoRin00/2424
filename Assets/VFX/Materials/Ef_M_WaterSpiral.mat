@@ -156,7 +156,7 @@ Material:
     - _Rotate: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
-    - _Smoothstep: -0.76
+    - _Smoothstep: -0.8
     - _SpecularHighlights: 1
     - _SrcBlend: 5
     - _SrcBlendAlpha: 1
@@ -166,7 +166,7 @@ Material:
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
-    - _dsv: 0.42
+    - _dsv: 0.5
     - _power: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
@@ -179,8 +179,8 @@ Material:
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 1, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
-    - _RampColor_01: {r: 0, g: 0.16545457, b: 0.39, a: 0}
-    - _RampColor_02: {r: 0, g: 1, b: 0.9130435, a: 0}
+    - _RampColor_01: {r: 0.042452812, g: 0.33788744, b: 1, a: 0}
+    - _RampColor_02: {r: 0, g: 1.5842994, b: 4.385524, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
     - _SubTiling: {r: 1, g: 0.4, b: 0, a: 0}

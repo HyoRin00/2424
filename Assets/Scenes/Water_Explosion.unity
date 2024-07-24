@@ -39202,7 +39202,8 @@ PlayableDirector:
   - key: {fileID: 7354182301842554860, guid: ec35b08029a7d7843b0fc9c90dbc1d4d, type: 2}
     value: {fileID: 9128845830177501118}
   m_ExposedReferences:
-    m_References: []
+    m_References:
+    - ecac8cbb7787113448ca4b73610bdc91: {fileID: 2064251028}
 --- !u!1 &565695962
 GameObject:
   m_ObjectHideFlags: 0
@@ -48874,7 +48875,7 @@ Transform:
   m_GameObject: {fileID: 670175934}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 4.052, y: 0.55, z: 1.59}
+  m_LocalPosition: {x: 6.91, y: 0.55, z: 1.59}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -97433,7 +97434,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!199 &1552076055
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -102240,7 +102241,7 @@ Transform:
   m_GameObject: {fileID: 1552076054}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.69218725, z: -0, w: 0.721718}
-  m_LocalPosition: {x: -3.497, y: 0.746, z: 0}
+  m_LocalPosition: {x: -7.46, y: 0.746, z: -0.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -126936,7 +126937,7 @@ ParticleSystem:
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
-  autoRandomSeed: 1
+  autoRandomSeed: 0
   startDelay:
     serializedVersion: 2
     minMaxState: 0
@@ -126993,7 +126994,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 0
+  randomSeed: 4322
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -148750,7 +148751,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: -8246975807668640569, guid: f7417e4b21ed3f74789d31261b810174, type: 3}
+  m_Mesh: {fileID: -8246975807668640569, guid: 10e0b1431fb0e074eb51a9f18b2605d6, type: 3}
   m_Bones:
   - {fileID: 6604322366783180382}
   - {fileID: 6763848101049389593}
@@ -149700,7 +149701,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 4017482625668419684, guid: f7417e4b21ed3f74789d31261b810174, type: 3}
+  m_Mesh: {fileID: 4017482625668419684, guid: 10e0b1431fb0e074eb51a9f18b2605d6, type: 3}
   m_Bones:
   - {fileID: 9145576984994359935}
   - {fileID: 7745359945456441007}
