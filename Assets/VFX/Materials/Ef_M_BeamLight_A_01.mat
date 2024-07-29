@@ -151,6 +151,7 @@ Material:
     - _QueueOffset: 0
     - _RAMP_SWITCH: 0
     - _ReceiveShadows: 1
+    - _Rotate: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _Smoothstep: 0.1
@@ -166,7 +167,7 @@ Material:
     - _power: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1.4213835, g: 1.4213835, b: 1.4213835, a: 1}
+    - _Color: {r: 1.39772, g: 1.39772, b: 1.39772, a: 1}
     - _Distortion_Panner: {r: 0, g: 0, b: 0, a: 0}
     - _Distortion_Tling: {r: 1, g: 1, b: 0, a: 0}
     - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
