@@ -96,7 +96,7 @@ Material:
     - _Gradient_Inten: 1
     - _Index: 0
     - _Inten: 2.5
-    - _Nosie_Scale: 5
+    - _Nosie_Scale: 5.65
     - _PANNER_SWITCH: 0
     - _PANNER_SWITHCH: 0
     - _POLAR_COORDINATE: 0
