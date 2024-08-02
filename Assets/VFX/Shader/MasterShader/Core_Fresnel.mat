@@ -57,6 +57,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Mask_Map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SubTexture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -96,6 +100,8 @@ Material:
     - _Gradient_Inten: 1
     - _Index: 0
     - _Inten: 2.5
+    - _Mask_Index: 0
+    - _Nosie_Mul: 0.02
     - _Nosie_Scale: 5.65
     - _PANNER_SWITCH: 0
     - _PANNER_SWITHCH: 0
@@ -120,6 +126,8 @@ Material:
     - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
     - _FresnelColor: {r: 0.046398424, g: 0.19893955, b: 0.6415094, a: 0}
     - _MainTiling: {r: 3, g: 3, b: 0, a: 0}
+    - _Mask_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Mask_Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _Offset: {r: 1, g: 0.5, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 0, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
