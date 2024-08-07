@@ -104,7 +104,7 @@ Material:
     - _Inten: 2.2
     - _Mask_Index: 0
     - _Nosie_Mul: 1.05
-    - _Nosie_Scale: 0.34
+    - _Nosie_Scale: 0.6
     - _PANNER_SWITCH: 0
     - _PANNER_SWITHCH: 0
     - _POLAR_COORDINATE: 0
@@ -128,13 +128,13 @@ Material:
     - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
     - _FresnelColor: {r: 2.739171, g: 2.739171, b: 2.739171, a: 0}
     - _MainTiling: {r: 0.5, g: 0.7, b: 0, a: 0}
-    - _Mask_Offset: {r: 0, g: 1, b: 0, a: 0}
+    - _Mask_Offset: {r: 0, g: 3, b: 0, a: 0}
     - _Mask_Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _Offset: {r: 0, g: 1.5, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 0, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
-    - _RampColor_01: {r: 0, g: 0.10396154, b: 0.7490197, a: 0}
-    - _RampColor_02: {r: 0.28099245, g: 0.6197175, b: 1.2674555, a: 0}
+    - _RampColor_01: {r: 0, g: 0.048809897, b: 0.7490196, a: 0}
+    - _RampColor_02: {r: 0.28534332, g: 0.83501697, b: 1.2674555, a: 0}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
     - _SubTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Tiling: {r: 2, g: 1.5, b: 0, a: 0}
