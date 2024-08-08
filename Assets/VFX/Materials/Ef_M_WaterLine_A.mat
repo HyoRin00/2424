@@ -155,7 +155,7 @@ Material:
     - _Gradient_Index: 0
     - _Gradient_Inten: 1
     - _Index: 0
-    - _Inten: 2.5
+    - _Inten: 2.75
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _PANNER_SWITCH: 0
@@ -183,19 +183,19 @@ Material:
     - _power: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Distortion_Panner: {r: -0.5, g: 0, b: 0, a: 0}
+    - _Color: {r: 4, g: 4, b: 4, a: 1}
+    - _Distortion_Panner: {r: 0, g: 0, b: 0, a: 0}
     - _Distortion_Tling: {r: 1, g: 1, b: 0, a: 0}
     - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainTiling: {r: 1, g: 3, b: 0, a: 0}
+    - _MainTiling: {r: 1, g: 8, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 0, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
     - _RampColor_01: {r: 0, g: 0, b: 0, a: 0}
     - _RampColor_02: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
+    - _SubPanner: {r: -0.5, g: 0, b: 0, a: 0}
     - _SubTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _Tiling_1: {r: 1, g: 1, b: 0, a: 0}
