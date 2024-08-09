@@ -25,7 +25,7 @@ MonoBehaviour:
     m_Start: 1.7999999602635697
     m_ClipIn: 0
     m_Asset: {fileID: 503377783923470181}
-    m_Duration: 0.866666666666666
+    m_Duration: 1.7000000397364303
     m_TimeScale: 1
     m_ParentTrack: {fileID: -8766265379144414844}
     m_EaseInDuration: 0
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: Recorded
   m_EditorClassIdentifier: 
   m_Clip: {fileID: -1388040106822376262}
-  m_Position: {x: 1.26, y: 0.56, z: 0}
+  m_Position: {x: 1.26, y: 0.06, z: 0}
   m_EulerAngles: {x: 270, y: 270, z: 0}
   m_UseTrackMatchFields: 1
   m_MatchTargetFields: 63
@@ -217,7 +217,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Dom _Glow
   - m_Version: 1
-    m_Start: 1.5333333333333334
+    m_Start: 1.666666666666666
     m_ClipIn: 0
     m_Asset: {fileID: 170868016607826081}
     m_Duration: 1
