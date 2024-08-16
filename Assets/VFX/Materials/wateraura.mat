@@ -170,7 +170,7 @@ Material:
     - _POLAR_COORDINATE: 0
     - _Parallax: 0.005
     - _Power: 0
-    - _Prism_Offset_X: 0.0332
+    - _Prism_Offset_X: 0.0234
     - _Prism_Offset_Y: 0
     - _QueueControl: 0
     - _QueueOffset: 0

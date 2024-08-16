@@ -173,14 +173,14 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Distortion_Panner: {r: 0.5, g: 0, b: 0, a: 0}
     - _Distortion_Tling: {r: 1, g: 1, b: 0, a: 0}
-    - _Edge_Color: {r: 0.042503275, g: 0.17284566, b: 0.42932585, a: 0}
+    - _Edge_Color: {r: 0, g: 0.35839882, b: 0.6132076, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 1, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
     - _RampColor_01: {r: 0.042452812, g: 0.33788744, b: 1, a: 0}
-    - _RampColor_02: {r: 0, g: 1.5842994, b: 4.385524, a: 0}
+    - _RampColor_02: {r: 0, g: 4.3502684, b: 6.7933683, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
     - _SubTiling: {r: 1, g: 0.4, b: 0, a: 0}
