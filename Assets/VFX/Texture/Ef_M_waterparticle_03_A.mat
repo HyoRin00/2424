@@ -187,6 +187,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RAMP_PANNER: 0
+    - _ROTATE: 0
     - _ReceiveShadows: 1
     - _Rotate: 0
     - _Smoothness: 0.5
@@ -222,7 +223,7 @@ Material:
     - _RampColor_02: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
-    - _SubTiling: {r: 0.3, g: 0.3, b: 0, a: 0}
+    - _SubTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _Tiling_1: {r: 1, g: 1, b: 0, a: 0}
     - _Vector2: {r: 0, g: 0, b: 0, a: 0}
