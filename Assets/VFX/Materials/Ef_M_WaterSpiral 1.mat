@@ -95,7 +95,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SubTexture:
-        m_Texture: {fileID: 2800000, guid: e95c542d1c7a9dd4ea2fdf97dbb07de1, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4bc38b29a5b287c429e217c4b1e33a84, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D:
@@ -183,7 +183,7 @@ Material:
     - _RampColor_02: {r: 0.94946533, g: 2.9840846, b: 6.099595, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
-    - _SubTiling: {r: 0.65, g: 0.4, b: 0, a: 0}
+    - _SubTiling: {r: 0.65, g: 0.9, b: 0, a: 0}
     - _Tiling: {r: 2.75, g: 1.5, b: 0, a: 0}
     - _Tiling_1: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
