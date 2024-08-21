@@ -133,7 +133,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 1
     - _DstBlendAlpha: 0
-    - _Edge_Smoothness: 0.45
+    - _Edge_Smoothness: 0.33
     - _Edge_Thickness: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
@@ -175,7 +175,7 @@ Material:
     - _Color: {r: 2, g: 2, b: 2, a: 1}
     - _Distortion_Panner: {r: 0, g: 0.1, b: 0, a: 0}
     - _Distortion_Tling: {r: 2, g: 0.1, b: 0, a: 0}
-    - _Edge_Color: {r: 0.29280877, g: 0.9661258, b: 1.7735848, a: 0}
+    - _Edge_Color: {r: 0.04267485, g: 0.9817138, b: 1.809414, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Offset: {r: 0, g: 0.5, b: 0, a: 0}
