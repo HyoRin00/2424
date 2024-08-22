@@ -72,7 +72,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: c5653e6507229e04bb7fa0f72a935d80, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -127,7 +127,7 @@ Material:
     - _CastShadows: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Cull: 0
+    - _Cull: 1
     - _Cutoff: 0.5
     - _DIST_SWITCH: 1
     - _DetailAlbedoMapScale: 1
@@ -176,17 +176,17 @@ Material:
     - _Color: {r: 2, g: 2, b: 2, a: 1}
     - _Distortion_Panner: {r: 0, g: 0.1, b: 0, a: 0}
     - _Distortion_Tling: {r: 2, g: 0.1, b: 0, a: 0}
-    - _Edge_Color: {r: 0.3531239, g: 2.046593, b: 3.5648699, a: 0}
+    - _Edge_Color: {r: 1.3193198, g: 3.6619642, b: 5.747178, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 1, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
-    - _RampColor_01: {r: 0.033018887, g: 0.30965275, b: 1, a: 0}
-    - _RampColor_02: {r: 0.25, g: 0.56072336, b: 1, a: 0}
+    - _RampColor_01: {r: 0, g: 0.09220073, b: 0.3207547, a: 0}
+    - _RampColor_02: {r: 0, g: 0.096249424, b: 0.23270428, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
-    - _SubTiling: {r: 5, g: 0.23, b: 0, a: 0}
+    - _SubTiling: {r: 5, g: 0.4, b: 0, a: 0}
     - _Tiling: {r: 8, g: 0.5, b: 0, a: 0}
     - _Tiling_1: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
