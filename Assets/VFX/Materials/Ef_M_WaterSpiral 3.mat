@@ -175,7 +175,7 @@ Material:
     - _Distortion_Tling: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _Edge_Color: {r: 0.33333313, g: 1.2450984, b: 2, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainTiling: {r: 2, g: 0.76, b: 0, a: 0}
+    - _MainTiling: {r: 0.5, g: 1, b: 0, a: 0}
     - _Offset: {r: 0.3, g: 0, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 1, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
