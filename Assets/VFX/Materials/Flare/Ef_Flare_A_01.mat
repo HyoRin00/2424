@@ -153,6 +153,7 @@ Material:
     - _QueueOffset: 0
     - _RAMP_SWITCH: 0
     - _ReceiveShadows: 1
+    - _Rotate: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _Smoothstep: 0.1
