@@ -64,6 +64,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DistortionMap:
+        m_Texture: {fileID: 2800000, guid: 01ed62f7213f21b4bbebd91373daffdf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Dsv_Texture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -150,9 +154,12 @@ Material:
     - _SrcBlend: 5
     - _Surface: 1
     - _WorkflowMode: 1
+    - _X_Panner: 0
+    - _Y_Panner: 0.09
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
+    - _inten: 0.02
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 0.6757588, b: 0.122641385, a: 0}
@@ -164,4 +171,6 @@ Material:
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Tiling_1: {r: 1, g: 0.08, b: 0, a: 0}
+    - _noise_tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

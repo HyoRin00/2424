@@ -133,7 +133,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
     - _DstBlendAlpha: 0
-    - _Edge_Smoothness: 0.1
+    - _Edge_Smoothness: 0.02
     - _Edge_Thickness: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
@@ -166,24 +166,24 @@ Material:
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
-    - _dsv: 0.12
+    - _dsv: 0.09
     - _power: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Distortion_Panner: {r: 0, g: 0, b: 0, a: 0}
     - _Distortion_Tling: {r: 0.2, g: 0.2, b: 0, a: 0}
-    - _Edge_Color: {r: 0.36149755, g: 1.1858288, b: 2.4458785, a: 0}
+    - _Edge_Color: {r: 0.92418015, g: 3.1391726, b: 6.5308795, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 0, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
-    - _RampColor_01: {r: 0.09028347, g: 0.33525804, b: 0.61085445, a: 0}
-    - _RampColor_02: {r: 0.16509435, g: 0.42177334, b: 0.6603774, a: 0}
+    - _RampColor_01: {r: 0.103773475, g: 0.37422538, b: 1, a: 0}
+    - _RampColor_02: {r: 0.05345905, g: 0.76511645, b: 1, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
-    - _SubTiling: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _SubTiling: {r: 0.6, g: 0.6, b: 0, a: 0}
     - _Tiling: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _Tiling_1: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
