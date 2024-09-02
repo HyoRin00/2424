@@ -7,13 +7,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ef_M_Sht_Thunder_01
+  m_Name: road 1
   m_Shader: {fileID: -6465566751694194690, guid: 4ac67d282a5d85640a34e4c08d01c7e1,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _COLORED_TYPE_RAMP_LERP
+  - _DIST_SWITCH
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -38,7 +39,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Color_Gradient_Map:
-        m_Texture: {fileID: 2800000, guid: 92b257835feea6046979daa9b9bce43b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 993fe810ac68855428e3ad97c42649d8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -54,11 +55,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Distortion:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 040e79fac29d548439c2be82ddbfca46, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dsv_Gradient_Map:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 993fe810ac68855428e3ad97c42649d8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -70,7 +71,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: 92b257835feea6046979daa9b9bce43b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4f01dcd04984b45448dbf20268dcf11e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_Map:
+        m_Texture: {fileID: 2800000, guid: 38eb9b250c5297443875fffa37e76375, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -94,7 +99,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SubTexture:
-        m_Texture: {fileID: 2800000, guid: 6834e822680d7444d9c68d1a3418d6a9, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D:
@@ -125,24 +130,28 @@ Material:
     - _CastShadows: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Cull: 2
+    - _Cull: 0
     - _Cutoff: 0.5
-    - _DIST_SWITCH: 0
+    - _DIST_SWITCH: 1
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
     - _DstBlendAlpha: 0
     - _Edge_Smoothness: 0
-    - _Edge_Thickness: 0.661
+    - _Edge_Thickness: 0
     - _EnvironmentReflections: 1
+    - _FresnelPower: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Gradient_Index: 0
+    - _Gradient_Index: 1
     - _Gradient_Inten: 1
-    - _Index: 1
-    - _Inten: 0
+    - _Index: 3
+    - _Inten: 1.8
+    - _Mask_Index: 0
     - _Metallic: 0
+    - _Nosie_Mul: 0.02
+    - _Nosie_Scale: 10
     - _OcclusionStrength: 1
     - _PANNER_SWITCH: 0
     - _PANNER_SWITHCH: 0
@@ -155,7 +164,7 @@ Material:
     - _Rotate: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
-    - _Smoothstep: 0
+    - _Smoothstep: 0.16
     - _SpecularHighlights: 1
     - _SrcBlend: 5
     - _SrcBlendAlpha: 1
@@ -165,28 +174,33 @@ Material:
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
-    - _dsv: 0
+    - _dsv: 0.32
     - _power: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Distortion_Panner: {r: 0, g: 0, b: 0, a: 0}
-    - _Distortion_Tling: {r: 1, g: 1, b: 0, a: 0}
-    - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 2, g: 2, b: 2, a: 1}
+    - _Distortion_Panner: {r: 0, g: 0.15, b: 0, a: 0}
+    - _Distortion_Tling: {r: 3, g: 0.5, b: 0, a: 0}
+    - _Edge_Color: {r: 2, g: 1.3838, b: 0.39622617, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 0}
+    - _MainTiling: {r: 5, g: 0.9, b: 0, a: 0}
+    - _Mask_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Mask_Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 0, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
-    - _RampColor_01: {r: 1.4980392, g: 0.9274147, b: 0.2190529, a: 0}
-    - _RampColor_02: {r: 1.4980392, g: 1.1218334, b: 0.6430263, a: 0}
+    - _RampColor_01: {r: 0, g: 0, b: 0, a: 0}
+    - _RampColor_02: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
-    - _SubTiling: {r: 3, g: 3, b: 0, a: 0}
-    - _Tiling: {r: 3, g: 1, b: 0, a: 0}
+    - _SubTiling: {r: 1, g: 0.84, b: 0, a: 0}
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _Tiling_1: {r: 1, g: 1, b: 0, a: 0}
+    - _VertexOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _VertexOffsetTiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &3822905587509307356
+--- !u!114 &5683787113551463991
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
