@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2412540016253006747
+--- !u!114 &-1483104642258177264
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ef_M_ShockWave_AB_01 2
-  m_Shader: {fileID: -6465566751694194690, guid: cbf557b73c5fafb49939b755c8af2aa0,
+  m_Name: Lerp_Test
+  m_Shader: {fileID: -6465566751694194690, guid: 2ce6418b2974a9a408a37119330ddfc6,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -36,7 +36,6 @@ Material:
     RenderType: Transparent
   disabledShaderPasses:
   - DepthOnly
-  - SHADOWCASTER
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -49,8 +48,8 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Color_Gradient_Map:
-        m_Texture: {fileID: 0}
+    - _Color_GradientMap:
+        m_Texture: {fileID: 2800000, guid: cfc2d435cb05a4c43a1d42a0edf40bce, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -65,40 +64,24 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Distortion:
+    - _DistortionMap:
         m_Texture: {fileID: 2800000, guid: 01ed62f7213f21b4bbebd91373daffdf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _DistortionMap:
-        m_Texture: {fileID: 2800000, guid: 040e79fac29d548439c2be82ddbfca46, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Dsv_Gradient:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Dsv_Gradient_Map:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _Dsv_Texture:
-        m_Texture: {fileID: 2800000, guid: 1686b2eba84b12340ace3e35a4161ca6, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _G_NoiseMap:
+        m_Texture: {fileID: 2800000, guid: 040e79fac29d548439c2be82ddbfca46, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: d5dc1b79626e221488e7abb75c8a3c9f, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Main_Texture:
-        m_Texture: {fileID: 2800000, guid: 1904833e179ef2d40808671310e26285, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -113,20 +96,16 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _RampMap:
-        m_Texture: {fileID: 0}
+    - _R_NoiseMap:
+        m_Texture: {fileID: 2800000, guid: 040e79fac29d548439c2be82ddbfca46, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SubTexture:
-        m_Texture: {fileID: 2800000, guid: 993fe810ac68855428e3ad97c42649d8, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _Texture2D:
-        m_Texture: {fileID: 2800000, guid: 040e79fac29d548439c2be82ddbfca46, type: 3}
+        m_Texture: {fileID: 2800000, guid: 91a0e72f896ce0440a48eecdb64d3ec2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -143,90 +122,55 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Add_Index: 0
-    - _Alpha: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
     - _BumpScale: 1
-    - _COLORED_TYPE: 0
-    - _CastShadows: 0
+    - _CastShadows: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Cull: 0
+    - _Cull: 1
     - _Cutoff: 0.5
-    - _DIST_SWITCH: 1
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
-    - _Dsv_Gradient_Inten: 1
-    - _ENUM: 0
-    - _Edge_Smoothness: 0
-    - _Edge_Thickness: 0.1
+    - _Dsv: 0
     - _EnvironmentReflections: 1
-    - _Float: -0.42
-    - _Float_1: -0.01
+    - _G_NoisePower: 0.43
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Gradient_Index: 0
-    - _Gradient_Inten: 1
-    - _Index: 0
-    - _Inten: 1.06
-    - _Intensity: 1
+    - _Index: 1
     - _Metallic: 0
     - _OcclusionStrength: 1
-    - _Offset: 0.9
-    - _PANNER_SWITCH: 0
-    - _PANNER_SWITHCH: 0
-    - _POLAR_COORDINATE: 0
     - _Parallax: 0.005
-    - _Power: 0
-    - _Prism_Offset_X: 0.0109
-    - _Prism_Offset_Y: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RAMP_SWITCH: 0
+    - _R_NoiseInten: 1.05
     - _ReceiveShadows: 1
-    - _Rotate: 90
-    - _SOFTPATICLES: 0
-    - _Smoothness: 0.5
+    - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
-    - _Smoothstep: 0.1
     - _SpecularHighlights: 1
     - _SrcBlend: 5
-    - _SubTexture_Index: 3
     - _Surface: 1
     - _WorkflowMode: 1
+    - _X_Panner: 0.05
+    - _Y_Panner: 0.05
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
-    - _dsv: 0
-    - _power: 0
+    - _inten: 0.01
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 4, g: 4, b: 4, a: 1}
-    - _Color_1: {r: 0, g: 0, b: 0, a: 0}
-    - _Color_2: {r: 0, g: 0, b: 0, a: 0}
-    - _Distortion_Panner: {r: 0, g: 0.1, b: 0, a: 0}
-    - _Distortion_Tling: {r: 1, g: 0.05, b: 0, a: 0}
-    - _Dsv_Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _Dsv_Tiling: {r: 1, g: -0.8, b: 0, a: 0}
-    - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 0.6757588, b: 0.122641385, a: 0}
+    - _Dsv_Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainTiling: {r: 1, g: 1, b: 0, a: 0}
-    - _Main_Offset: {r: -0.99, g: 0, b: 0, a: 0}
-    - _Main_Tiling: {r: 1, g: 8, b: 0, a: 0}
+    - _G_Color_01: {r: 0.105731525, g: 0.15143292, b: 0.41509432, a: 0}
+    - _G_Color_02: {r: 0, g: 0.6742493, b: 0.89411765, a: 1}
+    - _G_Noise_Tiling: {r: 7, g: 0.59, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _Offset_1: {r: 0, g: 0, b: 0, a: 0}
-    - _Panner: {r: 0, g: 0.25, b: 0, a: 0}
-    - _RampColor_01: {r: 0, g: 0, b: 0, a: 0}
-    - _RampColor_02: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
-    - _SubTiling: {r: 1, g: 1, b: 0, a: 0}
-    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
-    - _Tiling_1: {r: 1, g: 1, b: 0, a: 0}
-    - _Tilng_ds: {r: 1, g: 1, b: 0, a: 0}
-    - _Vector2: {r: 0, g: 0.1, b: 0, a: 0}
+    - _Tiling: {r: 2, g: 1, b: 0, a: 0}
+    - _Tiling_1: {r: 1, g: 0.1, b: 0, a: 0}
+    - _noise_tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
