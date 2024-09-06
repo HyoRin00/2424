@@ -13,7 +13,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _COLORED_TYPE_RAMP_LERP
+  - _COLORED_TYPE_VERTEX_COLOR
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -121,7 +121,7 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
-    - _COLORED_TYPE: 1
+    - _COLORED_TYPE: 0
     - _CastShadows: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -178,7 +178,7 @@ Material:
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 0, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
-    - _RampColor_01: {r: 1.4980392, g: 0.9274147, b: 0.2190529, a: 0}
+    - _RampColor_01: {r: 2, g: 2, b: 2, a: 0}
     - _RampColor_02: {r: 1.4980392, g: 1.1218334, b: 0.6430263, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}

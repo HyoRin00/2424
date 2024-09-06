@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: crak
+  m_Name: crak 1
   m_Shader: {fileID: -6465566751694194690, guid: aa80199eb90c41a4fbfceae2a99a2828,
     type: 3}
   m_Parent: {fileID: 0}
@@ -60,21 +60,21 @@ Material:
     - _CastShadows: 0
     - _Cull: 2
     - _DstBlend: 10
-    - _Float: 9.9
+    - _Float: 7.5
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SrcBlend: 5
-    - _Step: 13.3
-    - _Strength: -0.43
+    - _Step: 2.49
+    - _Strength: -1.11
     - _Surface: 1
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
     - _alapha: 1.13
-    - _powe: 32.47
+    - _powe: 30.26
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 0}
-    - _emission: {r: 9.830946, g: 0.7883307, b: 0.7883307, a: 0}
+    - _emission: {r: 9.518762, g: 1.032696, b: 1.032696, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &5800786646898184361
 MonoBehaviour:
