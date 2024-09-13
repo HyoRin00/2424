@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Ef_M_HitAura_AB_04 1
-  m_Shader: {fileID: -6465566751694194690, guid: 4ac67d282a5d85640a34e4c08d01c7e1,
+  m_Shader: {fileID: -6465566751694194690, guid: 9bb53d5921cfd2e40ae65329b118b893,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -33,7 +33,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses:
@@ -103,12 +103,16 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Screen_Position_Map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SubTexture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: f3673c26727d8ef46b6efb87395c6ee0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D:
@@ -149,6 +153,7 @@ Material:
     - _Edge_Smoothness: 0
     - _Edge_Thickness: 0
     - _EnvironmentReflections: 1
+    - _Float: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -176,6 +181,8 @@ Material:
     - _SubTexture_Index: 2
     - _Surface: 1
     - _WorkflowMode: 1
+    - _X_panner: 0
+    - _Y_Panner: 0
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
@@ -194,9 +201,11 @@ Material:
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
     - _RampColor_01: {r: 0, g: 0, b: 0, a: 0}
     - _RampColor_02: {r: 1, g: 0.6461069, b: 0.103773475, a: 0}
+    - _Screen_color: {r: 1, g: 1, b: 1, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
     - _SubTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Tiling: {r: 5, g: 5, b: 0, a: 0}
     - _Tiling_1: {r: 1, g: 1, b: 0, a: 0}
+    - _Tiling_2: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

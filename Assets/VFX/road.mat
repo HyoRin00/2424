@@ -8,12 +8,12 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: road
-  m_Shader: {fileID: -6465566751694194690, guid: 4ac67d282a5d85640a34e4c08d01c7e1,
+  m_Shader: {fileID: -6465566751694194690, guid: 9bb53d5921cfd2e40ae65329b118b893,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _COLORED_TYPE_VERTEX_COLOR
+  - _COLORED_TYPE_RAMP_LERP
   - _DIST_SWITCH
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
@@ -39,7 +39,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Color_Gradient_Map:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 993fe810ac68855428e3ad97c42649d8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -71,7 +71,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: 2893f7c9e8994ff499001c744d8c5d04, type: 3}
+        m_Texture: {fileID: 2800000, guid: 968e9814b2b8dba44846340c1921d51c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_Map:
@@ -94,12 +94,16 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Screen_Position_Map:
+        m_Texture: {fileID: 2800000, guid: e033e02f1be8df242834e3ce8f898e15, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SubTexture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: f3673c26727d8ef46b6efb87395c6ee0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D:
@@ -126,7 +130,7 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
-    - _COLORED_TYPE: 0
+    - _COLORED_TYPE: 1
     - _CastShadows: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -140,13 +144,14 @@ Material:
     - _Edge_Smoothness: 0
     - _Edge_Thickness: 0.1
     - _EnvironmentReflections: 1
+    - _Float: 4.26
     - _FresnelPower: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Gradient_Index: 0
     - _Gradient_Inten: 1
-    - _Index: 0
+    - _Index: 3
     - _Inten: 1.12
     - _Mask_Index: 0
     - _Metallic: 0
@@ -164,23 +169,25 @@ Material:
     - _Rotate: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
-    - _Smoothstep: 0.1
+    - _Smoothstep: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 5
     - _SrcBlendAlpha: 1
     - _SubTexture_Index: 0
     - _Surface: 1
     - _WorkflowMode: 1
+    - _X_panner: 0
+    - _Y_Panner: 0
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
-    - _dsv: 0
+    - _dsv: -7.38
     - _power: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1.9999999, g: 1.9999999, b: 1.9999999, a: 1}
-    - _Distortion_Panner: {r: 0, g: 0.2, b: 0, a: 0}
-    - _Distortion_Tling: {r: 0.85, g: 0.43, b: 0, a: 0}
+    - _Color: {r: 2.670157, g: 2.670157, b: 2.670157, a: 1}
+    - _Distortion_Panner: {r: 0, g: 0.11, b: 0, a: 0}
+    - _Distortion_Tling: {r: 0.7, g: 0.15, b: 0, a: 0}
     - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColor: {r: 1, g: 1, b: 1, a: 0}
@@ -190,13 +197,15 @@ Material:
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 0, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
-    - _RampColor_01: {r: 0, g: 0, b: 0, a: 0}
-    - _RampColor_02: {r: 0, g: 0, b: 0, a: 0}
+    - _RampColor_01: {r: 1, g: 0.5779841, b: 0, a: 0}
+    - _RampColor_02: {r: 5.3403134, g: 3.311666, b: 1.5365995, a: 0}
+    - _Screen_color: {r: 3.3690016, g: 2.175741, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
     - _SubTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _Tiling_1: {r: 1, g: 1, b: 0, a: 0}
+    - _Tiling_2: {r: 5, g: 5, b: 0, a: 0}
     - _VertexOffset: {r: 0, g: 0, b: 0, a: 0}
     - _VertexOffsetTiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
