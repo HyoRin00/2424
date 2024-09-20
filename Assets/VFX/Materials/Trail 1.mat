@@ -20,19 +20,19 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Trail
-  m_Shader: {fileID: -6465566751694194690, guid: 4ac67d282a5d85640a34e4c08d01c7e1,
+  m_Name: Trail 1
+  m_Shader: {fileID: -6465566751694194690, guid: 9bb53d5921cfd2e40ae65329b118b893,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _COLORED_TYPE_DIS_EDGE_RAMP
+  - _COLORED_TYPE_VERTEX_COLOR
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses:
@@ -71,9 +71,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dsv_Gradient_Map:
-        m_Texture: {fileID: 2800000, guid: c88cefbd64c3886428a5722cc9676c03, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: -0.15, y: 0}
+        m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -103,7 +103,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Screen_Position_Map:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: e033e02f1be8df242834e3ce8f898e15, type: 3}
         m_Scale: {x: 3, y: 3}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -111,7 +111,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SubTexture:
-        m_Texture: {fileID: 2800000, guid: f3673c26727d8ef46b6efb87395c6ee0, type: 3}
+        m_Texture: {fileID: 2800000, guid: c5653e6507229e04bb7fa0f72a935d80, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D:
@@ -138,11 +138,11 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
-    - _COLORED_TYPE: 2
+    - _COLORED_TYPE: 0
     - _CastShadows: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Cull: 0
+    - _Cull: 2
     - _Cutoff: 0.5
     - _DIST_SWITCH: 0
     - _DetailAlbedoMapScale: 1
@@ -152,6 +152,7 @@ Material:
     - _Edge_Smoothness: 0
     - _Edge_Thickness: 0
     - _EnvironmentReflections: 1
+    - _Float: 2.9
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -179,6 +180,8 @@ Material:
     - _SubTexture_Index: 0
     - _Surface: 1
     - _WorkflowMode: 1
+    - _X_panner: 0
+    - _Y_Panner: 0
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
@@ -186,21 +189,22 @@ Material:
     - _power: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1.5885365, g: 1.5885365, b: 1.5885365, a: 1}
+    - _Color: {r: 1.189845, g: 1.189845, b: 1.189845, a: 1}
     - _Distortion_Panner: {r: 0.5, g: 0, b: 0, a: 0}
     - _Distortion_Tling: {r: 0.79, g: 1, b: 0, a: 0}
     - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainTiling: {r: 0.65, g: 1, b: 0, a: 0}
+    - _MainTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Offset: {r: -1, g: 0, b: 0, a: 0}
     - _Offset_1: {r: 0, g: 0, b: 0, a: 0}
     - _Panner: {r: 0, g: 0, b: 0, a: 0}
     - _RampColor_01: {r: 0, g: 0.9007951, b: 0.6036552, a: 1}
     - _RampColor_02: {r: 5.216475, g: 2.8660207, b: 0.17224221, a: 1}
-    - _Screen_color: {r: 1, g: 1, b: 1, a: 0}
+    - _Screen_color: {r: 5.3403134, g: 4.180982, b: 1.1839373, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubPanner: {r: 0, g: 0, b: 0, a: 0}
-    - _SubTiling: {r: 0.85, g: 0.73, b: 0, a: 0}
+    - _SubTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _Tiling_1: {r: 1, g: 1, b: 0, a: 0}
+    - _Tiling_2: {r: 5, g: 5, b: 0, a: 0}
   m_BuildTextureStacks: []
